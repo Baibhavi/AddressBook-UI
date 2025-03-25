@@ -34,7 +34,7 @@ export class AddPersonComponent {
       },
       (error) => {
         console.error('Error adding contact:', error);
-        alert('Failed to add person.');
+        alert('Regex mismatched, please enter a valid details.');
       }
     );
   }
